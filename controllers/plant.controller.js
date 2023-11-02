@@ -4,7 +4,6 @@ const Plant = require('../models/plant.model')
 
 
 exports.getAllPlants = (req, res) => {
-    console.log('lslfk')
     Plant.findAll()
         .then(
             data => {
@@ -41,6 +40,6 @@ exports.addManyPlants = (req,res)=>{
         for (const plant of list) {
             Plant.create(plant)
         }
-        res.status(200).json(Plant.findAll())
+        res.status(200).json(`${list.length} new plant(s) added successfuly`)
     }
 }

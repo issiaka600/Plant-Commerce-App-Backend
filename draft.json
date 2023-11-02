@@ -4,14 +4,16 @@
 		"category": "classique",
 		"light": 2,
 		"water": 3,
-		"price": 15
+		"price": 15,
+		"cover": "monstera.jpg"
 	},
 	{
 		"name": "ficus lyrata",
 		"category": "classique",
 		"light": 3,
 		"water": 1,
-		"price": 16
+		"price": 16,
+		"cover": "lyrata.jpg"
 	},
 
 	{
@@ -19,21 +21,24 @@
 		"category": "classique",
 		"light": 1,
 		"water": 2,
-		"price": 9
+		"price": 9,
+		"cover": "pothos.jpg"
 	},
 	{
 		"name": "calathea",
 		"category": "classique",
 		"light": 2,
 		"water": 3,
-		"price": 20
+		"price": 20,
+		"cover": "calathea.jpg"
 	},
 	{
 		"name": "olivier",
 		"category": "extérieur",
 		"light": 3,
 		"water": 1,
-		"price": 25
+		"price": 25,
+		"cover": "olivier.jpg"
 	},
 
 	{
@@ -41,21 +46,24 @@
 		"category": "plante grasse",
 		"light": 2,
 		"water": 1,
-		"price": 6
+		"price": 6,
+		"cover": "cactus.jpg"
 	},
 	{
 		"name": "basilique",
 		"category": "extérieur",
 		"light": 2,
 		"water": 3,
-		"price": 5
+		"price": 5,
+		"cover": "basil.jpg"
 	},
 	{
 		"name": "succulente",
 		"category": "plante grasse",
 		"light": 2,
 		"water": 1,
-		"price": 8
+		"price": 8,
+		"cover": "succulent.jpg"
 	},
 
 	{
@@ -63,6 +71,7 @@
 		"category": "extérieur",
 		"light": 2,
 		"water": 2,
-		"price": 4
+		"price": 4,
+		"cover": "mint.jpg"
 	}
 ]
