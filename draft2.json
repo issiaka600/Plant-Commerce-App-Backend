@@ -1,0 +1,77 @@
+[
+	{
+		"name": "monstera",
+		"category": "6544f51d318d2522e1c512b4",
+		"light": 2,
+		"water": 3,
+		"price": 15,
+		"cover": "monstera.jpg"
+	},
+	{
+		"name": "ficus lyrata",
+		"category": "6544f51d318d2522e1c512b4",
+		"light": 3,
+		"water": 1,
+		"price": 16,
+		"cover": "lyrata.jpg"
+	},
+
+	{
+		"name": "pothos argenté",
+		"category": "6544f51d318d2522e1c512b4",
+		"light": 1,
+		"water": 2,
+		"price": 9,
+		"cover": "pothos.jpg"
+	},
+	{
+		"name": "calathea",
+		"category": "6544f51d318d2522e1c512b4",
+		"light": 2,
+		"water": 3,
+		"price": 20,
+		"cover": "calathea.jpg"
+	},
+	{
+		"name": "olivier",
+		"category": "6544f68a870c363e1719ad76",
+		"light": 3,
+		"water": 1,
+		"price": 25,
+		"cover": "olivier.jpg"
+	},
+
+	{
+		"name": "cactus",
+		"category": "6544f68a870c363e1719ad75",
+		"light": 2,
+		"water": 1,
+		"price": 6,
+		"cover": "cactus.jpg"
+	},
+	{
+		"name": "basilique",
+		"category": "6544f68a870c363e1719ad76",
+		"light": 2,
+		"water": 3,
+		"price": 5,
+		"cover": "basil.jpg"
+	},
+	{
+		"name": "succulente",
+		"category": "6544f68a870c363e1719ad75",
+		"light": 2,
+		"water": 1,
+		"price": 8,
+		"cover": "succulent.jpg"
+	},
+
+	{
+		"name": "menthe",
+		"category": "6544f68a870c363e1719ad76",
+		"light": 2,
+		"water": 2,
+		"price": 4,
+		"cover": "mint.jpg"
+	}
+]

@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+/draft.json
+/draft2.json
 
 # testing
 /coverage

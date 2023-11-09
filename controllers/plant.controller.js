@@ -34,12 +34,13 @@ exports.addPlant = (req, res) => {
         })
 }
 
-exports.addManyPlants = (req,res)=>{
+exports.addManyPlants = (req, res) => {
     const list = req.body
-    if(Array.isArray(list) && list.length>0){
-        for (const plant of list) {
-            Plant.create(plant)
-        }
-        res.status(200).json(`${list.length} new plant(s) added successfuly`)
+    if (Array.isArray(list) && list.length > 0) {
+        Plant.bulkCreate(elements)
+        .then(data=>{res.status(200).json(data)})
+        .catch(erorr=>{
+            res.status(500).json({error:'Something wrong happened'})
+        })
     }
 }
