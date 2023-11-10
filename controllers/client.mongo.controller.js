@@ -60,7 +60,7 @@ exports.authenticateUser = async (req, res) => {
     // });
     // Inclure les informations de l'utilisateur dans la réponse
     const userResponse = {
-      _id: user._id,
+      id: user._id,
       name: user.name,
       email: user.email,
       image: user.image
